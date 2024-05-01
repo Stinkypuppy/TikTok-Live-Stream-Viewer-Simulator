@@ -33,7 +33,7 @@ def simulate_views(stream_id, num_views):
         except requests.exceptions.HTTPError as e:
             print(f"Error simulating view: {e}")
             time.sleep(1)
-stream_id = "7363981637664770858"
+stream_id = "7023914195607979014"
 num_views = 100
 simulate_views(stream_id, num_views)
 #room_id: 7363981637664770858
